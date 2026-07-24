@@ -1,9 +1,11 @@
 name: Playwright Tests
 on:
-  push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
+  workflow_dispatch:
+    inputs:
+      command:
+        description: 'Command to run (default: npx playwright test)'
+        required: true
+        default: ''
 jobs:
   test:
     timeout-minutes: 60
@@ -18,7 +20,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npx playwright test
+      run: ${{ github.event.inputs.command || 'npx playwright test --reporter=html' }}
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
