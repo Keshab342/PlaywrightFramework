@@ -1,11 +1,13 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="61.936975">
-<testsuite name="Interview.spec.ts" timestamp="2026-07-15T08:03:27.444Z" hostname="chromium" tests="1" failures="0" skipped="0" time="103.059" errors="0">
-<testcase name="@Yatra  Verify Booking " classname="Interview.spec.ts" time="103.059">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="9.673119999999999">
+<testsuite name="Interview.spec.ts" timestamp="2026-09-18T04:36:30.395Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.065" errors="0">
+<testcase name="MockAPI123 API mocking" classname="Interview.spec.ts" time="7.065">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results\Interview--Yatra-Verify-Booking--chromium\video.webm]]
+[[ATTACHMENT|test-results\Interview-MockAPI123-API-mocking-chromium\test-finished-1.png]]
 
-[[ATTACHMENT|test-results\Interview--Yatra-Verify-Booking--chromium\trace.zip]]
+[[ATTACHMENT|test-results\Interview-MockAPI123-API-mocking-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Interview-MockAPI123-API-mocking-chromium\trace.zip]]
 ]]>
 </system-out>
 </testcase>
