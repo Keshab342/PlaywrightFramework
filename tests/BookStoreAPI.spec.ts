@@ -1,6 +1,6 @@
 import {test,expect} from "@playwright/test"
 
-test("@MockBookStoreAPI  Test first API",async({page})=>{
+test("@MockBookStoreAPI100  Test first API",async({page})=>{
 
 await page.route("**/BookStore/BookStoreV1BooksPost/9781449331818", async route => {
 await route.fulfill({
